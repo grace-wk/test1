@@ -5,6 +5,7 @@
 	align-items:center;
 	text-decoration:none;
 	height:70px;
+	background-color:skyblue;
 }
 .nav-bar{
 	padding:5px;
@@ -19,7 +20,7 @@
 	height:50px;
 }
 .nav-text{
-	padding:5px;
+	padding:20px;
 	font-size:1.5rem;
 	
 }
@@ -43,10 +44,13 @@
 	flex-direction:column;
 	align-items:center;
 	padding:10px;
+	
 }
 *{
 	margin:0;
 	box-sizing: border-box;
+	text-decoration:none;
+	list-style:none;
 }
 .readmore-bt {
 	border:2px solid black;
@@ -56,7 +60,9 @@
 	justify-content:center;
 	align-items:center;
 	border-radius:50px;
+	text-decoration:none;
 }
+
 .text-center {
 	 display:flex;
 	justify-content:center;
@@ -64,10 +70,10 @@
 }
 .col-6 {
 	width:50%;
-	height:450px;
+	
 	display:flex;
 	flex-direction:row;
-	padding:10px;
+	padding:25px;
 	justify-content:center;
 	max-width:500px;
 	
@@ -78,8 +84,85 @@
 	flex-direction:row;
 	justify-content:space-around;
 	margin:50px;
+	
 }
 .text-about {
 	border:2.5px solid black;
 	border-radius:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:450px;
+}
+.text-about1 {
+	border:2.5px solid gold;
+	border-radius:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-image:url("./world-img/logo.jpg");
+	background-size:cover;
+}
+.text-about2 {
+	border:2.5px solid gold;
+	border-radius:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-image:url("./world-img/Iran.jpg");
+	background-size:cover;
+}
+.text-about3 {
+	border:2.5px solid gold;
+	border-radius:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-image:url("./world-img/img.jpg");
+	background-size:cover;
+}
+.bt-top {
+	width:50px;
+	height:50px;
+	display:flex;
+	margin-left:1200px;
+}
+.col-4 {
+	
+	width:33%;
+	height:250px;
+	display:flex;
+	flex-direction:row;
+	padding:10px;
+	justify-content:center;
+	width:300px;
+	border:2px solid black;
+	border-radius:50px;
+}
+.gall-box {
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	justify-content:center;
+}
+.topic {
+	display:flex;
+	justify-content:center;
+	margin-top:35px;
+}
+.content {
+	display:flex;
+	flex-direction:column;
+}
+.gallery {
+	height:180px;
+	width:230px;
+	border-radius:50px;
+}
+.img-about {
+	height:450px;
 }
